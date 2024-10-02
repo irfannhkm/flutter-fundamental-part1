@@ -16,11 +16,11 @@ Kemudian buat folder sesuai style laporan praktikum yang Anda pilih. Disarankan 
 Buat nama project flutter hello_world seperti berikut, lalu tekan Enter. Tunggu hingga proses pembuatan project baru selesai.
 ### Langkah 4
 Jika sudah selesai proses pembuatan project baru, pastikan tampilan seperti berikut. Pesan akan tampil berupa "Your Flutter Project is ready!" artinya Anda telah berhasil membuat project Flutter baru.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image1.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image1.png)
 
 ## Praktikum 2: Menghubungkan Perangkat Android atau Emulator
 Melanjutkan dari praktikum 1, Anda diminta untuk menjalankan aplikasi ke perangkat fisik (device Android atau iOS). Silakan ikuti langkah-langkah pada codelab tautan berikut ini.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image0.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image0.png)
 
 
 ## Praktikum 3: Membuat Repository GitHub dan Laporan Praktikum
@@ -30,11 +30,11 @@ Praktikum ini dapat Anda lewati langsung ke langkah 11 jika sudah paham cara mem
 
 ### Langkah 11
 Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image2.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image2.png)
 
 ### Langkah 12
 Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image3.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image3.png)
 
 ## Praktikum 3: Menerapkan Widget Dasar
 ### Langkah 1: Text Widget
@@ -55,10 +55,10 @@ class MyTextWidget extends StatelessWidget {
 }
 ```
 Perhatian: Gantilah teks Fulan dengan nama lengkap Anda.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image5.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image5.png)
 
 Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image4.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image4.png)
 
 ### Langkah 2: Image Widget
 Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
@@ -77,16 +77,16 @@ class MyImageWidget extends StatelessWidget {
 }
 ```
 Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image7.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image7.png)
 ```
 flutter:
   assets:
      - logo_polinema.jpg
 ```
 Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image6.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image6.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image8.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image8.png)
 
 ## Praktikum 4: Menerapkan Widget Material Design dan iOS Cupertino
 ### Langkah 1: Cupertino Button dan Loading Bar
@@ -108,7 +108,7 @@ return MaterialApp(
       ),
     );
 ```
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image9.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image9.png)
 
 ### Langkah 2: Floating Action Button (FAB)
 Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton.
@@ -127,7 +127,7 @@ return MaterialApp(
       ),
     );
 ```
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image10.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image10.png)
 
 ### Langkah 3: Scaffold Widget
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
@@ -209,7 +209,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image11.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image11.png)
 
 ### Langkah 4: Dialog Widget
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
@@ -273,7 +273,7 @@ showAlertDialog(BuildContext context) {
   );
 }
 ```
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image12.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image12.png)
 
 ### Langkah 5: Input dan Selection Widget
 Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
@@ -300,7 +300,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image13.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image13.png)
 
 ### Langkah 6: Date and Time Pickers
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
@@ -379,19 +379,19 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/image14.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/image14.png)
 
 ## Tugas Praktikum
 ### Step 3: Membuat proyek Flutter pertama Anda
 Luncurkan Visual Studio Code dan buka palet perintah (dengan F1 atau Ctrl+Shift+P atau Shift+Cmd+P). Ketik "flutter new". Pilih perintah Flutter: New Project.
-![Hasil Program](../Mobile%20Flutter%20Development/hello_world/assets/proyek_pertama.gif)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/praktikum/proyek_pertama.gif)
 
 Hasil pada langkah 3:
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image1.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image1.png)
 
 Meluncurkan aplikasi dengan perangkat dekstop:
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image2.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image2.png)
 
 ### Step 4: Menambahkan tombol
 ```
@@ -468,7 +468,7 @@ class MyHomePage extends StatelessWidget {
 ```
 Hasil pada langkah 4:
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image4.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image4.png)
 
 ### Step 5: Memperindah tampilan aplikasi
 ```
@@ -563,7 +563,7 @@ class BigCard extends StatelessWidget {
 ```
 Hasil pada langkah 5:
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image5.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image5.png)
 
 ### Step 6: Menambahkan fungsi
 ```
@@ -689,7 +689,7 @@ class BigCard extends StatelessWidget {
 ```
 Hasil pada langkah 6:
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image6.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image6.png)
 
 ### Step 7: Menambahkan kolom samping navigasi
 ```
@@ -874,11 +874,11 @@ class BigCard extends StatelessWidget {
 ```
 Hasil pada langkah 7:
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image70.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image70.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image72.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image72.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image71.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image71.png)
 
 
 ### Step 8: Menambahkan halaman baru
@@ -1097,15 +1097,15 @@ class FavoritesPage extends StatelessWidget {
 ```
 Hasil pada langkah 8:
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image80.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image80.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image81.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image81.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image84.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image84.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image82.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image82.png)
 
-![Hasil Program](../Mobile%20Flutter%20Development/namer_app/assets/image83.png)
+![Hasil Program](../Mobile%20Flutter%20Development/assets/tugas/image83.png)
 
 
 
